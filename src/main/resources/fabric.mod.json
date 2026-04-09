@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "adignore",
+  "version": "${version}",
+  "name": "AdIgnore",
+  "description": "Meteor addon that ignores selected players, includes customizable keyword filter and stores a reason for each one.",
+  "authors": ["J_wsh"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/adignore/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "com.jawshthedark.adignore.AdIgnoreAddon"
+    ]
+  },
+  "mixins": [
+    "adignore.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*",
+    "meteor-client": "*"
+  }
+}
